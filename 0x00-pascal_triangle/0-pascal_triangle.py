@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def pascal_triangle(n):
+    """task on pascal triangle"""
     if n <= 0:
         return []
     triangle = [[1]]
