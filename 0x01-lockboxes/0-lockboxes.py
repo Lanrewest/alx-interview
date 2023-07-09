@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def can_unlock_all(boxes):
     """
     Determine if all the boxes can be opened.
@@ -35,6 +36,7 @@ def can_unlock_all(boxes):
                 return True
 
     return False
+
 
 # Example test cases
 boxes = [[1], [2], [3], [4], []]
